@@ -1,4 +1,4 @@
-# README
+# Setup
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
@@ -11,12 +11,12 @@ Things you may want to cover:
 
 * rails new AppName -d=postgresql
 
-Bootstrap SetUp:
----------------
+# Bootstrap SetUp:
+
 yarn add bootstrap jquery popper.js
 
-Environment.js
--------------
+# Environment.js
+
 const { environment } = require('@rails/webpacker')
 const webpack = require("webpack")
 environment.plugins.append("Provide", new webpack.ProvidePlugin({
